@@ -76,7 +76,7 @@ void loop()
     }
     
     // if it's too cold and the AC is on
-    if ((temperature < 21) && (ac_on))
+    if ((temperature < 25) && (ac_on))
     {
         // turn the AC off!
         flipPower();
