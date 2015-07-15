@@ -86,5 +86,5 @@ void loop()
     }
     
     // we can only read the DHT so fast, so a delay here.
-    delay(2000);
+    delay(60000);
 }
